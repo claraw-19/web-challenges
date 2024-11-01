@@ -33,12 +33,14 @@
   text-align: right;
 }
 
-/* 
-  The animals want some color! 🎨
-  When the mouse hovers over an animal, change the background color.
-   - The crocodile wants to be lightblue.
-   - The giraffe likes lightgreen.
-   - The dino is a huge fan of lightsalmon.
+.crocodile:hover {
+  background-color: lightblue;
+}
 
-  💡 You'll need to use a pseudo-class selector for each animal.
-*/
+.giraffe:hover {
+  background-color: lightgreen;
+}
+
+.dino:hover {
+  background-color: lightsalmon;
+}
