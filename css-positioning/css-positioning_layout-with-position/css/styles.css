@@ -25,6 +25,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
 }
 
 .header__text {
@@ -97,4 +98,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: fixed;
+  bottom: 50px;
+  left: 5px;
+  z-index: 1;
 }
