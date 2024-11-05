@@ -1,0 +1,15 @@
+.button {
+  color: #201e1d;
+  font-weight: bolder;
+  background-color: var(--button-bg);
+  border-radius: 5px;
+  border: 3px solid #201e1d;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.button:hover {
+  background-color: var(--card-bg);
+}
