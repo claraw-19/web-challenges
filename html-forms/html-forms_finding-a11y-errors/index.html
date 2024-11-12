@@ -16,16 +16,22 @@
         Please let us know how we can support you with a11y issues.
       </p>
 
-      <form for="title">
-        <fieldset>
+      <form>
+        <fieldset aria-describedby="enter-information">
           <legend>Enter your information</legend>
-          <label>Name:</label>
+
+          <label for="name-Input">Name:</label>
           <input id="name-Input" type="text" name="name" />
-          <label>Age:</label>
-          <input id="age-Input" type="text" name="age" />
-          <label>Color you cannot see:</label>
+
+          <label for="age-Input">Age:</label>
+          <input id="age-Input" type="number" name="age" />
+
+          <label for="color-Input">Color you cannot see:</label>
           <input id="color-Input" type="color" name="color" />
-          <textarea rows="7" placeholder="Leave us a message..."></textarea>
+
+          <label for="message">Leave us a message:</label>
+          <textarea id="message" rows="7" name="message"></textarea>
+
           <button type="submit">Submit</button>
         </fieldset>
       </form>
