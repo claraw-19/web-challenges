@@ -5,7 +5,7 @@ Rewrite the following functions as arrow functions.
 Use implicit returns when possible
 */
 
-function getCurrentHour() {
+const getCurrentHour = () => {
   const now = new Date();
   const currentHour = now.getHours();
   if (currentHour === 0) {
@@ -17,21 +17,23 @@ function getCurrentHour() {
   } else {
     return currentHour - 12 + "pm";
   }
-}
+};
 
-function getVectorLength(x, y, z) {
-  return (x ** 2 + y ** 2 + z ** 2) ** 0.5;
-}
+console.log("Current hour: ", getCurrentHour());
 
-function cleanInput(string) {
-  return string.toLowerCase().trim();
-}
+const getVectorLength = (x, y, z) => (x ** 2 + y ** 2 + z ** 2) ** 0.5;
+
+console.log("Vector length: ", getVectorLength(3, 4, 0));
+
+const cleanInput = (string) => string.toLowerCase().trim();
+
+console.log("Clean input: ", cleanInput("djhfshaufh"));
 
 /*
 Rewrite the following arrow functions as classic functions.
 */
 
-const isOddAndSmall = (number) => {
+function isOddAndSmall(number) {
   if (number > 10) {
     return false;
   }
@@ -41,8 +43,18 @@ const isOddAndSmall = (number) => {
   }
 
   return true;
-};
+}
 
-const add3 = (a, b, c) => a + b + c;
+console.log("Is odd and small: ", isOddAndSmall(3));
 
-const repeat10 = (string) => string.repeat(10);
+function add3(a, b, c) {
+  return a + b + c;
+}
+
+console.log("Add three: ", add3(1, 2, 3));
+
+function repeat10(string) {
+  return string.repeat(10);
+}
+
+console.log("Repreat Ten: ", repeat10("Hallo "));
