@@ -15,4 +15,6 @@ inputRadius.addEventListener("input", () => {
   box.style.borderRadius = radius === inputRadius.max ? "50%" : `${radius}%`;
 });
 
-inputRotation.addEventListener("input", () => {});
+inputRotation.addEventListener("input", () => {
+  const rotation = inputRotation.value;
+});
