@@ -21,7 +21,9 @@ function findById(employees, id) {
 // This time you want to find an employee who lives in a city that includes a specific substring.
 
 function findByCitySubString(employees, string) {
-  return null;
+  return employees.find((employee) =>
+    employee.city.toLowerCase().includes(string.toLowerCase())
+  );
 }
 
 // Bonus:
