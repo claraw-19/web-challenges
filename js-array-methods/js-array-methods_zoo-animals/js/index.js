@@ -6,7 +6,7 @@ import { zooAnimals } from "../utils/db.js";
 
 function hasAnimal(animals, animalName) {
   const result = animals.map(function (animal) {
-    return animal === animalName;
+    return animal.toLowerCase() === animalName.toLowerCase();
   });
   return result.includes(true);
 }
