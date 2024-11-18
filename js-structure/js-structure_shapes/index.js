@@ -2,17 +2,15 @@ console.clear();
 
 import { getRandomColor } from "./utils/randomColor.js";
 import { Circle } from "./components/Circle/Circle.js";
+import { Square } from "./components/Square/Square.js";
 
 const root = document.getElementById("root");
 
 const circleElement = Circle();
 root.appendChild(circleElement);
 
-const square = document.createElement("div");
-square.classList.add("square");
-square.addEventListener("click", () => {
-  square.style.backgroundColor = getRandomColor();
-});
+const squareElement = Square();
+root.appendChild(squareElement);
 
 const pentagon = document.createElement("div");
 pentagon.classList.add("pentagon");
