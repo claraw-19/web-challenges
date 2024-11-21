@@ -5,11 +5,13 @@ try reversing the challenge by rewriting this code without using these modern fe
 
 export const getNameAndCountry = (city) => [city.name, city.country];
 
-export const getRelocatedCity = (city1, city2) => {
-  city2 = city2 || { name: "Berlin", country: "Germany" };
-  const country = getNameAndCountry(city2)[1];
-  let relocatedCity = {};
-  relocatedCity.name = city1.name;
-  relocatedCity.country = country;
-  return { relocatedCity };
+export const getRelocatedCity = function (city1, city2) {
+  if (city2 === undefined) {
+    city2 = { name: "Berlin", country: "Germany" };
+  }
+  const country = city2.country;
+  return {
+    name: city1.name,
+    country: country,
+  };
 };
