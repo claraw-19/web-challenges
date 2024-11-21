@@ -152,7 +152,17 @@ const mixedArray = [
 ];
 
 function sum(array) {
-  // TODO:
+  let result = 0;
+  for (let element of array) {
+    if (typeof element === "string") {
+      result += element.length;
+    } else if (typeof element === "boolean") {
+      result += element ? 1 : 0;
+    } else {
+      result += element;
+    }
+  }
+  return result;
 }
 
 // Bonus: Write a function that calculates the greatest product of four
@@ -224,7 +234,30 @@ const matrix = [
 ];
 
 function greatestProduct(matrix) {
-  // TODO:
+  let maxProduct = 0;
+  // horizontally
+  //row
+  for (let i = 0; i < matrix.length; i++) {
+    //column
+    for (let j = 0; j < matrix[i].length - 3; j++) {
+      const product =
+        matrix[i][j] * matrix[i][j + 1] * matrix[i][j + 2] * matrix[i][j + 3];
+      maxProduct = Math.max(maxProduct, product);
+    }
+  }
+
+  // vertically
+  for (let i = 0; i < matrix.length - 3; i++) {
+    //row
+    for (let j = 0; j < matrix[i].length; j++) {
+      //column
+      const product =
+        matrix[i][j] * matrix[i + 1][j] * matrix[i + 2][j] * matrix[i + 3][j];
+      maxProduct = Math.max(maxProduct, product);
+    }
+  }
+
+  return maxProduct;
 }
 
 module.exports = {
