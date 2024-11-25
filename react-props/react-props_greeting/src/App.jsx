@@ -1,5 +1,11 @@
 import "./styles.css";
 
+function Greeting({ name }) {
+  const coaches = ["Peter", "Klaus", "Esraa", "Andrea"];
+  const isCoach = coaches.includes(name);
+  return <h1>{isCoach ? "Hello, Coach!" : `Hello, ${name}!`}</h1>;
+}
+
 export default function App() {
-  return <h1>Replace me with your component!</h1>;
+  return <Greeting name="Peter" />;
 }
