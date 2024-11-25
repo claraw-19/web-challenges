@@ -1,6 +1,14 @@
 import React from "react";
 import "./styles.css";
 
+function Button({ color, disabled, text }) {
+  return (
+    <button style={{ color: color }} disabled={disabled}>
+      {text}
+    </button>
+  );
+}
+
 export default function App() {
-  return <h1>Replace me with your component!</h1>;
+  return <Button color={"blue"} disabled={false} text={"Click me!"} />;
 }
