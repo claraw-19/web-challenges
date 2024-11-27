@@ -1,4 +1,5 @@
 import Counter from "./components/Counter";
+import { useState } from "react";
 import "./styles.css";
 
 export default function App() {
