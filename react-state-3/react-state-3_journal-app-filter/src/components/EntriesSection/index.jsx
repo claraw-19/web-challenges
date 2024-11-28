@@ -17,10 +17,14 @@ export default function EntriesSection({
     <section className="entries-section">
       <Tabs>
         <Tab isActive={filter === "all"} onClick={onShowAllEntries}>
-          All Entries <Badge isActive={filter === "all"}>3</Badge>
+          All Entries{" "}
+          <Badge isActive={filter === "all"}>{entries.length}</Badge>
         </Tab>
         <Tab isActive={filter === "favorites"} onClick={onShowFavoriteEntries}>
-          Favorites <Badge isActive={filter === "favorites"}>1</Badge>
+          Favorites{" "}
+          <Badge isActive={filter === "favorites"}>
+            {onShowFavoriteEntries.length}
+          </Badge>
         </Tab>
       </Tabs>
       <div className="entries-section__entries">
