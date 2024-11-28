@@ -40,6 +40,8 @@ function App() {
   const [entries, setEntries] = useState(initialEntries);
   const [filter, setFilter] = useState("all");
 
+  const favoriteEntries = entries.filter((entry) => entry.isFavorite === true);
+
   function handleShowFavoriteEntries() {
     setFilter("favorites");
   }
@@ -71,7 +73,7 @@ function App() {
         <EntriesSection
           onShowAllEntries={handleShowAllEntries}
           onShowFavoriteEntries={handleShowFavoriteEntries}
-          entries={entries}
+          entries={filter === "favorites" ? favoriteEntries : entries}
           onToggleFavorite={handleToggleFavorite}
         />
       </main>
