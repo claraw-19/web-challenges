@@ -4,9 +4,10 @@ import Entry from "../Entry";
 import Tabs from "../Tabs";
 import Tab from "../Tab";
 import Badge from "../Badge";
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
 
-const entries = [
+const [entries, setEntries] = useState(initalEntries);
+const initalEntries = [
   {
     id: 1000,
     date: "Feb 5, 2025",
