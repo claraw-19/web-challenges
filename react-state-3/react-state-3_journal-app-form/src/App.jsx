@@ -45,7 +45,7 @@ function App() {
     });
     newEntry.date = date;
     newEntry.id = uid();
-    setEntries(newEntry, ...entries);
+    setEntries([newEntry, ...entries]);
   }
 
   return (

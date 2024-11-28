@@ -6,7 +6,7 @@ import Tab from "../Tab";
 import Badge from "../Badge";
 import { Fragment, useState } from "react";
 
-export default function EntriesSection(entries) {
+export default function EntriesSection({ entries }) {
   return (
     <section className="entries-section">
       <Tabs>
