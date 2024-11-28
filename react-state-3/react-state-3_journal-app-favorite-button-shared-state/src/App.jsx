@@ -53,7 +53,7 @@ function App() {
     ]);
   }
 
-  function handleToggleFavorite({ id }) {
+  function handleToggleFavorite(id) {
     setEntries(
       entries.map((entry) =>
         id === entry.id ? { ...entry, isFavorite: !entry.isFavorite } : entry

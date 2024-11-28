@@ -11,10 +11,11 @@ export default function EntriesSection({ entries, onToggleFavorite }) {
     <section className="entries-section">
       <Tabs>
         <Tab active>
-          All Entries <Badge isActive>3</Badge>
+          All Entries <Badge isActive>{entries.length}</Badge>
         </Tab>
         <Tab>
-          Favorites <Badge>1</Badge>
+          Favorites{" "}
+          <Badge>{entries.filter((entry) => entry.isFavorite).length}</Badge>
         </Tab>
       </Tabs>
       <div className="entries-section__entries">
