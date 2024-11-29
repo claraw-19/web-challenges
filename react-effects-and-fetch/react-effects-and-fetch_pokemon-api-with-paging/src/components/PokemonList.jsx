@@ -25,9 +25,17 @@ export default function PokemonList() {
     setPage(page + 1);
   }
 
+  function handlePrevPage() {
+    if (page > 0) {
+      setPage(page - 1);
+    }
+  }
+
   return (
     <main>
-      <button type="button">Previous Page</button>
+      <button type="button" onClick={handlePrevPage}>
+        Previous Page
+      </button>
       <button type="button" onClick={handleNextPage}>
         Next Page
       </button>
