@@ -11,7 +11,13 @@ export default function App() {
     latitude: 0,
   });
 
-  async function getISSCoords() {}
+  async function getISSCoords() {
+    const response = await fetch(URL);
+    const data = await response.json();
+    const longitude = data.longitude;
+    const latitude = data.latitude;
+    setCoords({ longitude, latitude });
+  }
 
   return (
     <main>
