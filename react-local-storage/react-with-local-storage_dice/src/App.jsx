@@ -1,7 +1,6 @@
 import { D6Button } from "./components/D6Button";
 import History from "./components/History";
 import "./styles.css";
-// import { useState } from "react";
 import { getD6Roll } from "../src/utils";
 import useLocalStorageState from "use-local-storage-state";
 
