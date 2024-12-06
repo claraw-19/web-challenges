@@ -17,6 +17,10 @@ export default function VolumeOne() {
         ))}
       </ul>
       <Image alt="" src={book.cover} width={140} height={230}></Image>
+      <br />
+      <Link href="/volumes/the-fellowship-of-the-ring">← Previous Volume </Link>
+      <br />
+      <Link href="/volumes/the-return-of-the-king">Next Volume →</Link>
     </>
   );
 }
