@@ -16,6 +16,7 @@ export default function VolumeOne() {
           <li key={book.ordinal}>{`${book.ordinal} ${book.title}`}</li>
         ))}
       </ul>
+      <Image alt="" src={book.cover} width={140} height={230}></Image>
     </>
   );
 }
