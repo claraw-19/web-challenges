@@ -47,8 +47,10 @@ export default function App({ Component, pageProps }) {
     );
   }
 
+  const isDimmed = countLightsOn === 0 ? true : false;
+
   return (
-    <Layout>
+    <Layout isDimmed={isDimmed}>
       <GlobalStyle />
       <Component
         {...pageProps}
@@ -57,6 +59,7 @@ export default function App({ Component, pageProps }) {
         countLightsOn={countLightsOn}
         handleAllOn={handleAllOn}
         handleAllOff={handleAllOff}
+        isDimmed={isDimmed}
       />
     </Layout>
   );
