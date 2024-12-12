@@ -19,7 +19,7 @@ export default function App({ Component, pageProps }) {
   function toggleLight(id) {
     setLights((lights) =>
       lights.map((light) => {
-        if (light.id === id) {
+        if (id === light.id) {
           return { ...light, isOn: !light.isOn };
         }
         return light;
@@ -27,10 +27,19 @@ export default function App({ Component, pageProps }) {
     );
   }
 
+  const lightsOn = lights.filter((light) => light.isOn);
+  // console.log(lightsOn);
+  const countLightson = lightsOn.length;
+
   return (
     <Layout>
       <GlobalStyle />
-      <Component {...pageProps} lights={lights} toggleLight={toggleLight} />
+      <Component
+        {...pageProps}
+        lights={lights}
+        toggleLight={toggleLight}
+        countLightson={countLightson}
+      />
     </Layout>
   );
 }
