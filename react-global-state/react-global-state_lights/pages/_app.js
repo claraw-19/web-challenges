@@ -29,7 +29,23 @@ export default function App({ Component, pageProps }) {
 
   const lightsOn = lights.filter((light) => light.isOn);
   // console.log(lightsOn);
-  const countLightson = lightsOn.length;
+  const countLightsOn = lightsOn.length;
+
+  function handleAllOn() {
+    setLights((lights) =>
+      lights.map((light) => {
+        return { ...light, isOn: true };
+      })
+    );
+  }
+
+  function handleAllOff() {
+    setLights((lights) =>
+      lights.map((light) => {
+        return { ...light, isOn: false };
+      })
+    );
+  }
 
   return (
     <Layout>
@@ -38,7 +54,9 @@ export default function App({ Component, pageProps }) {
         {...pageProps}
         lights={lights}
         toggleLight={toggleLight}
-        countLightson={countLightson}
+        countLightsOn={countLightsOn}
+        handleAllOn={handleAllOn}
+        handleAllOff={handleAllOff}
       />
     </Layout>
   );

@@ -1,10 +1,10 @@
 import Link from "../components/Link";
 
-export default function HomePage({ countLightson }) {
+export default function HomePage({ countLightsOn }) {
   return (
     <div>
       <h1>Home</h1>
-      <p>{countLightson} light(s) are on.</p>
+      <p>{countLightsOn} light(s) are on.</p>
       <p>
         <Link href="/rooms">All Rooms →</Link>
       </p>
