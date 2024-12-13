@@ -7,7 +7,12 @@ const URL = "https://api.wheretheiss.at/v1/satellites/25544";
 const fetcher = (URL) => fetch(URL).then((res) => res.json());
 
 export default function ISSTracker() {
-  const { data: coords, error, isLoading } = useSWR(URL, fetcher);
+  const {
+    data: coords,
+    error,
+    isLoading,
+    mutate,
+  } = useSWR(URL, fetcher, { refreshInterval: 5000 });
   console.log(coords);
   if (isLoading) return <p>Loading...</p>;
   if (error) return <p>Error</p>;
@@ -40,13 +45,17 @@ export default function ISSTracker() {
   //   };
   // }, []);
 
+  const getISSCoords = () => {
+    mutate();
+  };
+
   return (
     <main>
       <Map longitude={coords.longitude} latitude={coords.latitude} />
       <Controls
         longitude={coords.longitude}
         latitude={coords.latitude}
-        // onRefresh={getISSCoords}
+        onRefresh={getISSCoords}
       />
     </main>
   );
