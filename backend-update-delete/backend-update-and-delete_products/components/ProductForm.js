@@ -2,7 +2,7 @@ import styled from "styled-components";
 import useSWR from "swr";
 import StyledButton from "@/components/Button";
 
-export default function ProductForm() {
+export default function ProductForm({ onSubmit }) {
   const { mutate } = useSWR("/api/products");
 
   async function handleSubmit(event) {
@@ -29,7 +29,7 @@ export default function ProductForm() {
   }
 
   return (
-    <StyledForm onSubmit={handleSubmit}>
+    <StyledForm onSubmit={onSubmit}>
       <StyledHeading>Add a new Fish</StyledHeading>
       <StyledLabel htmlFor="name">
         Name:
