@@ -113,8 +113,8 @@
     },
     {
       "type": "text",
-      "version": 114,
-      "versionNonce": 692203476,
+      "version": 115,
+      "versionNonce": 175025893,
       "isDeleted": false,
       "id": "_QM5tCH-8OYwbRiv7vw6p",
       "fillStyle": "hachure",
@@ -134,7 +134,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497810,
+      "updated": 1736155326480,
       "link": null,
       "locked": false,
       "fontSize": 29.052423298749368,
@@ -145,7 +145,7 @@
       "containerId": null,
       "originalText": "Movie App",
       "lineHeight": 1.2,
-      "baseline": 27
+      "baseline": 28
     },
     {
       "type": "text",
@@ -181,7 +181,7 @@
       "containerId": null,
       "originalText": "Barbie",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "text",
@@ -217,7 +217,7 @@
       "containerId": null,
       "originalText": "Oppenheimer",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "text",
@@ -253,7 +253,7 @@
       "containerId": null,
       "originalText": "Elemental",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "text",
@@ -289,7 +289,7 @@
       "containerId": null,
       "originalText": "Indiana Jones and the \nDial of Destiny",
       "lineHeight": 1.15,
-      "baseline": 32
+      "baseline": 33
     },
     {
       "type": "rectangle",
@@ -746,7 +746,7 @@
       "containerId": null,
       "originalText": "7.4",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "ellipse",
@@ -813,7 +813,7 @@
       "containerId": null,
       "originalText": "8.3",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "ellipse",
@@ -880,7 +880,7 @@
       "containerId": null,
       "originalText": "7.8",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "ellipse",
@@ -947,7 +947,7 @@
       "containerId": null,
       "originalText": "7.6",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "line",
@@ -1056,7 +1056,7 @@
       "containerId": null,
       "originalText": "4.5",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "line",
@@ -1165,7 +1165,7 @@
       "containerId": null,
       "originalText": "6.5",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "line",
@@ -1307,8 +1307,8 @@
     },
     {
       "type": "text",
-      "version": 171,
-      "versionNonce": 655910764,
+      "version": 172,
+      "versionNonce": 474209771,
       "isDeleted": false,
       "id": "Zl_7wbbiWrdiDMtH4xTcr",
       "fillStyle": "hachure",
@@ -1328,7 +1328,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497811,
+      "updated": 1736155326481,
       "link": null,
       "locked": false,
       "fontSize": 29.052423298749368,
@@ -1339,7 +1339,7 @@
       "containerId": null,
       "originalText": "Movie App",
       "lineHeight": 1.2,
-      "baseline": 27
+      "baseline": 28
     },
     {
       "type": "rectangle",
@@ -1370,8 +1370,8 @@
     },
     {
       "type": "text",
-      "version": 68,
-      "versionNonce": 1117066580,
+      "version": 69,
+      "versionNonce": 551651909,
       "isDeleted": false,
       "id": "FYH1npdpTXK4NBTU6jn4y",
       "fillStyle": "solid",
@@ -1391,7 +1391,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497812,
+      "updated": 1736155326482,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -1438,7 +1438,7 @@
       "containerId": null,
       "originalText": "Sorry, we couldn't retrieve the latest movie data \nat the moment. Please try again later.",
       "lineHeight": 1.15,
-      "baseline": 32
+      "baseline": 33
     },
     {
       "type": "rectangle",
@@ -1550,8 +1550,8 @@
     },
     {
       "type": "text",
-      "version": 355,
-      "versionNonce": 753965548,
+      "version": 356,
+      "versionNonce": 2139547787,
       "isDeleted": false,
       "id": "T_tGWMZRkRfldt1eBAmhL",
       "fillStyle": "hachure",
@@ -1571,7 +1571,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497813,
+      "updated": 1736155326482,
       "link": null,
       "locked": false,
       "fontSize": 29.052423298749368,
@@ -1582,7 +1582,7 @@
       "containerId": null,
       "originalText": "Movie App",
       "lineHeight": 1.2,
-      "baseline": 27
+      "baseline": 28
     },
     {
       "type": "text",
@@ -1618,7 +1618,7 @@
       "containerId": null,
       "originalText": "Barbie",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "text",
@@ -1654,7 +1654,7 @@
       "containerId": null,
       "originalText": "Oppenheimer",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "text",
@@ -1690,7 +1690,7 @@
       "containerId": null,
       "originalText": "Elemental",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "text",
@@ -1726,7 +1726,7 @@
       "containerId": null,
       "originalText": "Indiana Jones and the \nDial of Destiny",
       "lineHeight": 1.15,
-      "baseline": 32
+      "baseline": 33
     },
     {
       "type": "line",
@@ -2129,7 +2129,7 @@
       "containerId": null,
       "originalText": "7.4",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "ellipse",
@@ -2196,7 +2196,7 @@
       "containerId": null,
       "originalText": "8.3",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "ellipse",
@@ -2263,7 +2263,7 @@
       "containerId": null,
       "originalText": "7.8",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "ellipse",
@@ -2330,7 +2330,7 @@
       "containerId": null,
       "originalText": "7.6",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "ellipse",
@@ -2397,7 +2397,7 @@
       "containerId": null,
       "originalText": "4.5",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "ellipse",
@@ -2464,12 +2464,12 @@
       "containerId": null,
       "originalText": "6.5",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "text",
-      "version": 412,
-      "versionNonce": 1265584852,
+      "version": 413,
+      "versionNonce": 1327626661,
       "isDeleted": false,
       "id": "sbt3iIt28JiA0Q3o16uM6",
       "fillStyle": "hachure",
@@ -2489,7 +2489,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497813,
+      "updated": 1736155326482,
       "link": null,
       "locked": false,
       "fontSize": 29.052423298749368,
@@ -2500,7 +2500,7 @@
       "containerId": null,
       "originalText": "Movie App",
       "lineHeight": 1.2,
-      "baseline": 27
+      "baseline": 28
     },
     {
       "type": "rectangle",
@@ -2531,8 +2531,8 @@
     },
     {
       "type": "text",
-      "version": 361,
-      "versionNonce": 1579056236,
+      "version": 362,
+      "versionNonce": 659529515,
       "isDeleted": false,
       "id": "vriy_iPfw4j5u1y4hZNZa",
       "fillStyle": "solid",
@@ -2552,7 +2552,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497814,
+      "updated": 1736155326482,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -2746,7 +2746,7 @@
       "containerId": null,
       "originalText": "Release Date:\n2023-07-19",
       "lineHeight": 1.15,
-      "baseline": 32
+      "baseline": 33
     },
     {
       "type": "text",
@@ -2945,7 +2945,7 @@
       "containerId": null,
       "originalText": "4.5",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "line",
@@ -3054,7 +3054,7 @@
       "containerId": null,
       "originalText": "6.5",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "line",
@@ -3394,8 +3394,8 @@
     },
     {
       "type": "text",
-      "version": 610,
-      "versionNonce": 1986449492,
+      "version": 611,
+      "versionNonce": 1851620613,
       "isDeleted": false,
       "id": "sOFxvdJZyHdu0LxZt8MX6",
       "fillStyle": "hachure",
@@ -3415,7 +3415,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497814,
+      "updated": 1736155326483,
       "link": null,
       "locked": false,
       "fontSize": 29.052423298749368,
@@ -3426,7 +3426,7 @@
       "containerId": null,
       "originalText": "Movie App",
       "lineHeight": 1.2,
-      "baseline": 27
+      "baseline": 28
     },
     {
       "type": "text",
@@ -3462,7 +3462,7 @@
       "containerId": null,
       "originalText": "Barbie",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "text",
@@ -3498,7 +3498,7 @@
       "containerId": null,
       "originalText": "Oppenheimer",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "text",
@@ -3534,7 +3534,7 @@
       "containerId": null,
       "originalText": "Elemental",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "text",
@@ -3570,7 +3570,7 @@
       "containerId": null,
       "originalText": "Indiana Jones and the \nDial of Destiny",
       "lineHeight": 1.15,
-      "baseline": 32
+      "baseline": 33
     },
     {
       "type": "line",
@@ -3973,7 +3973,7 @@
       "containerId": null,
       "originalText": "7.4",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "ellipse",
@@ -4036,7 +4036,7 @@
       "containerId": null,
       "originalText": "8.3",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "ellipse",
@@ -4103,7 +4103,7 @@
       "containerId": null,
       "originalText": "7.8",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "ellipse",
@@ -4170,12 +4170,12 @@
       "containerId": null,
       "originalText": "7.6",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "text",
-      "version": 667,
-      "versionNonce": 611061484,
+      "version": 668,
+      "versionNonce": 1309180363,
       "isDeleted": false,
       "id": "Y_eRla9eEmabz7ftnkLlN",
       "fillStyle": "hachure",
@@ -4195,7 +4195,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497815,
+      "updated": 1736155326483,
       "link": null,
       "locked": false,
       "fontSize": 29.052423298749368,
@@ -4206,7 +4206,7 @@
       "containerId": null,
       "originalText": "Movie App",
       "lineHeight": 1.2,
-      "baseline": 27
+      "baseline": 28
     },
     {
       "type": "rectangle",
@@ -4237,8 +4237,8 @@
     },
     {
       "type": "text",
-      "version": 631,
-      "versionNonce": 860988884,
+      "version": 632,
+      "versionNonce": 1443992677,
       "isDeleted": false,
       "id": "PYimwFp9A3h-dBgYyADBv",
       "fillStyle": "solid",
@@ -4258,7 +4258,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497815,
+      "updated": 1736155326483,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -4452,7 +4452,7 @@
       "containerId": null,
       "originalText": "Release Date:\n2023-07-19",
       "lineHeight": 1.15,
-      "baseline": 32
+      "baseline": 33
     },
     {
       "type": "text",
@@ -4625,7 +4625,7 @@
       "containerId": "LA2p9M7hl7pim5ylFT4rC",
       "originalText": "Home",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -4688,7 +4688,7 @@
       "containerId": null,
       "originalText": "Watchlist",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -4751,12 +4751,12 @@
       "containerId": null,
       "originalText": "Add to Watchlist",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "text",
-      "version": 718,
-      "versionNonce": 543379820,
+      "version": 719,
+      "versionNonce": 2093748331,
       "isDeleted": false,
       "id": "B_pitjcwwv9BY7dA5n16o",
       "fillStyle": "hachure",
@@ -4776,7 +4776,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497816,
+      "updated": 1736155326483,
       "link": null,
       "locked": false,
       "fontSize": 29.052423298749368,
@@ -4787,7 +4787,7 @@
       "containerId": null,
       "originalText": "Movie App",
       "lineHeight": 1.2,
-      "baseline": 27
+      "baseline": 28
     },
     {
       "type": "rectangle",
@@ -4913,7 +4913,7 @@
       "containerId": null,
       "originalText": "Elemental",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "line",
@@ -5060,7 +5060,7 @@
       "containerId": null,
       "originalText": "7.8",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "rectangle",
@@ -5123,7 +5123,7 @@
       "containerId": null,
       "originalText": "Oppenheimer",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "line",
@@ -5270,7 +5270,7 @@
       "containerId": null,
       "originalText": "8.3",
       "lineHeight": 1.15,
-      "baseline": 10
+      "baseline": 11
     },
     {
       "type": "rectangle",
@@ -5338,7 +5338,7 @@
       "containerId": "k6EYO4dpg5GFa0Cc_0NzB",
       "originalText": "Home",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -5401,12 +5401,12 @@
       "containerId": null,
       "originalText": "Watchlist",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "text",
-      "version": 795,
-      "versionNonce": 122014548,
+      "version": 796,
+      "versionNonce": 302759877,
       "isDeleted": false,
       "id": "tSqeiE_IvlDPcV07rqWim",
       "fillStyle": "hachure",
@@ -5426,7 +5426,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497816,
+      "updated": 1736155326483,
       "link": null,
       "locked": false,
       "fontSize": 29.052423298749368,
@@ -5437,7 +5437,7 @@
       "containerId": null,
       "originalText": "Movie App",
       "lineHeight": 1.2,
-      "baseline": 27
+      "baseline": 28
     },
     {
       "type": "rectangle",
@@ -5568,7 +5568,7 @@
       "containerId": "_6fozRyddLXboHLMX2Men",
       "originalText": "Home",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -5631,7 +5631,7 @@
       "containerId": null,
       "originalText": "Watchlist",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "text",
@@ -5667,7 +5667,7 @@
       "containerId": null,
       "originalText": "Your watchlist is currently empty. Start adding\nmovies you want to watch by clicking \n'Add to Watchlist' on the movie details page. \nYour selected movies will appear here.",
       "lineHeight": 1.15,
-      "baseline": 69
+      "baseline": 70
     },
     {
       "type": "text",
@@ -5703,7 +5703,7 @@
       "containerId": null,
       "originalText": "Movie App",
       "lineHeight": 1.15,
-      "baseline": 118
+      "baseline": 119
     },
     {
       "type": "text",
@@ -5950,8 +5950,8 @@
     },
     {
       "type": "text",
-      "version": 370,
-      "versionNonce": 1364083692,
+      "version": 371,
+      "versionNonce": 895798027,
       "isDeleted": false,
       "id": "3O3oyrLS_en-68lVEA9rC",
       "fillStyle": "hachure",
@@ -5971,7 +5971,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497818,
+      "updated": 1736155326484,
       "link": null,
       "locked": false,
       "fontSize": 28,
@@ -5986,8 +5986,8 @@
     },
     {
       "type": "text",
-      "version": 429,
-      "versionNonce": 1687765204,
+      "version": 430,
+      "versionNonce": 1483308837,
       "isDeleted": false,
       "id": "MJWOfgL2Scf1hKSUKfy0t",
       "fillStyle": "hachure",
@@ -6007,7 +6007,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497818,
+      "updated": 1736155326484,
       "link": null,
       "locked": false,
       "fontSize": 28,
@@ -6022,8 +6022,8 @@
     },
     {
       "type": "text",
-      "version": 480,
-      "versionNonce": 1027008108,
+      "version": 481,
+      "versionNonce": 1548562859,
       "isDeleted": false,
       "id": "sNO72zNcKTbrVPymEmu_J",
       "fillStyle": "hachure",
@@ -6043,7 +6043,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497818,
+      "updated": 1736155326485,
       "link": null,
       "locked": false,
       "fontSize": 28,
@@ -6058,8 +6058,8 @@
     },
     {
       "type": "text",
-      "version": 459,
-      "versionNonce": 48367188,
+      "version": 460,
+      "versionNonce": 1066947205,
       "isDeleted": false,
       "id": "GlhUVfhyMtNySJ4pgdcUV",
       "fillStyle": "hachure",
@@ -6079,7 +6079,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497818,
+      "updated": 1736155326485,
       "link": null,
       "locked": false,
       "fontSize": 28,
@@ -6094,8 +6094,8 @@
     },
     {
       "type": "text",
-      "version": 646,
-      "versionNonce": 417806572,
+      "version": 647,
+      "versionNonce": 1655686219,
       "isDeleted": false,
       "id": "xDQgxF3XuNBZtDvlxVCT5",
       "fillStyle": "hachure",
@@ -6115,7 +6115,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497818,
+      "updated": 1736155326485,
       "link": null,
       "locked": false,
       "fontSize": 28,
@@ -6130,8 +6130,8 @@
     },
     {
       "type": "text",
-      "version": 958,
-      "versionNonce": 922098644,
+      "version": 959,
+      "versionNonce": 878033381,
       "isDeleted": false,
       "id": "3DB3tG1Ag5pMaa8Fnw-UK",
       "fillStyle": "hachure",
@@ -6151,7 +6151,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497819,
+      "updated": 1736155326485,
       "link": null,
       "locked": false,
       "fontSize": 28,
@@ -6166,8 +6166,8 @@
     },
     {
       "type": "text",
-      "version": 335,
-      "versionNonce": 1877556076,
+      "version": 336,
+      "versionNonce": 812057323,
       "isDeleted": false,
       "id": "q1oIyCOllnDMPWaT2YH7A",
       "fillStyle": "hachure",
@@ -6187,7 +6187,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497819,
+      "updated": 1736155326485,
       "link": null,
       "locked": false,
       "fontSize": 54.88787231728774,
@@ -6233,8 +6233,8 @@
     },
     {
       "type": "text",
-      "version": 675,
-      "versionNonce": 1256948052,
+      "version": 676,
+      "versionNonce": 800011589,
       "isDeleted": false,
       "id": "bjMCLqv-VjB560Y3FSwa5",
       "fillStyle": "solid",
@@ -6256,7 +6256,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497819,
+      "updated": 1736155326485,
       "link": null,
       "locked": false,
       "fontSize": 106.7950332901494,
@@ -6271,8 +6271,8 @@
     },
     {
       "type": "text",
-      "version": 1193,
-      "versionNonce": 1283911148,
+      "version": 1194,
+      "versionNonce": 1308454283,
       "isDeleted": false,
       "id": "v7p1HJfrUojzGyiGbYJDn",
       "fillStyle": "hachure",
@@ -6294,7 +6294,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497819,
+      "updated": 1736155326486,
       "link": null,
       "locked": false,
       "fontSize": 37.880139096429005,
@@ -6309,8 +6309,8 @@
     },
     {
       "type": "text",
-      "version": 635,
-      "versionNonce": 1444427476,
+      "version": 636,
+      "versionNonce": 755123365,
       "isDeleted": false,
       "id": "rI_1ZMvZA4y9abfusxY62",
       "fillStyle": "solid",
@@ -6332,7 +6332,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708090497819,
+      "updated": 1736155326486,
       "link": null,
       "locked": false,
       "fontSize": 28,
